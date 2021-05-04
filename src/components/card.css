@@ -37,8 +37,9 @@ html {
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
-  min-width: 20rem;
+  min-width: 25rem;
   min-height: 35rem;
+  padding: 20px;
 }
 
 .wave {

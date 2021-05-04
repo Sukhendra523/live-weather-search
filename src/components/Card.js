@@ -10,7 +10,7 @@ const Card = () => {
       const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=b14425a6554d189a2d7dc18a8e7d7263`;
       const response = await fetch(url);
       const resJSON = await response.json();
-      console.log(resJSON);
+      // console.log(resJSON);
       setData(resJSON.main);
     };
 
