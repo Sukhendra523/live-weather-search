@@ -1,5 +1,6 @@
 {
   "name": "live-weather-search",
+  "homepage": "https://Sukhendra523.github.io/live-weather-search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,10 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
